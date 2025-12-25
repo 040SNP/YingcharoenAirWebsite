@@ -1,17 +1,17 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import news1 from "@/assets/news1.jpg";
+import news1 from "@/assets/news1.png";
 import news2 from "@/assets/news2.jpg";
-import news3 from "@/assets/news3.jpg";
+import news3 from "@/assets/news3-new.jpg";
 
 const newsItems = [
   {
     id: 1,
-    title: "ติดตั้งแอร์ Carrier Inverter",
-    description: "บริการติดตั้งแอร์ Carrier Inverter ประหยัดไฟเบอร์ 5 พร้อมรับประกันงานติดตั้ง",
+    title: "ติดตั้งแอร์ Daikin Inverter",
+    description: "บริการติดตั้งแอร์ Daikin Inverter R32 ประหยัดไฟ พร้อมรับประกันงานติดตั้ง",
     image: news1,
-    link: "https://www.facebook.com/share/p/17wZHnWbhd/",
+    link: "https://www.facebook.com/share/p/1ADBtTGk9S/",
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const newsItems = [
   },
   {
     id: 3,
-    title: "สายไฟ THW 1x2.5 ราคาพิเศษ",
-    description: "สายไฟ THW 1x2.5 (100 ม.) ราคาพิเศษเพียง 990 บาท คุณภาพดี มาตรฐาน",
+    title: "สายไฟ BCC THW 2.5 SQ.MM ราคาพิเศษ",
+    description: "สายไฟ BCC THW 2.5 SQ.MM (30 ม.) คุณภาพดี มาตรฐาน มอก.",
     image: news3,
     link: "https://www.facebook.com/share/p/1Buh7diU7L/",
   },
