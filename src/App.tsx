@@ -9,12 +9,15 @@ import ProductDetail from "./pages/ProductDetail";
 
 const queryClient = new QueryClient();
 
+// Use basename only for GitHub Pages production build
+const basename = import.meta.env.PROD ? "/yingcharoen-air-website-44" : "";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/yingcharoen-air-website-44">
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/product/:slug" element={<ProductDetail />} />
